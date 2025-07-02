@@ -4,4 +4,5 @@
   (lib (name "39301022")(type "KiCad")(uri "${KIPRJMOD}/symbols/39301022.kicad_sym")(options "")(descr ""))
   (lib (name "1731130154")(type "KiCad")(uri "${KIPRJMOD}/symbols/1731130154.kicad_sym")(options "")(descr ""))
   (lib (name "0836149012")(type "KiCad")(uri "${KIPRJMOD}/symbols/0836149012.kicad_sym")(options "")(descr ""))
+  (lib (name "PSC")(type "KiCad")(uri "${KIPRJMOD}/symbols/PSC.kicad_sym")(options "")(descr ""))
 )

@@ -452,7 +452,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "psc_carrier_brd.kicad_pro",
+    "filename": "psc_daughter_brd.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -646,10 +646,6 @@
     [
       "40891cc8-bf64-41f4-8f69-a607d7b280eb",
       "Root"
-    ],
-    [
-      "5e8bd990-b052-4de9-8b1d-6d051dc9193f",
-      "zuDFE Connectors"
     ],
     [
       "dea95122-986e-41c8-b99e-e429cc6f4cd5",
