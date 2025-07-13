@@ -585,6 +585,24 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -650,6 +668,10 @@
     [
       "dea95122-986e-41c8-b99e-e429cc6f4cd5",
       "DAC"
+    ],
+    [
+      "4999e499-3966-4a05-8928-c40234f9b048",
+      "Voltage Reference"
     ]
   ],
   "text_variables": {}

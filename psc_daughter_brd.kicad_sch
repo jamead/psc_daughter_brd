@@ -752,7 +752,7 @@
 	)
 	(sheet
 		(at 80.01 72.39)
-		(size 38.1 45.72)
+		(size 26.67 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -763,7 +763,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 157 202 145 0.8700)
 		)
 		(uuid "dea95122-986e-41c8-b99e-e429cc6f4cd5")
 		(property "Sheetname" "DAC"
@@ -776,7 +776,7 @@
 			)
 		)
 		(property "Sheetfile" "dac.kicad_sch"
-			(at 80.01 118.6946 0)
+			(at 80.01 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,6 +812,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "control_vout+" input
+			(at 106.68 95.25 0)
+			(uuid "826f09af-56dc-4434-97a7-022cc27bc824")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "control_vout-" input
+			(at 106.68 97.79 0)
+			(uuid "fa36c8eb-b4bd-4d6a-8869-68cd846c8e62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dac_mon" input
+			(at 106.68 86.36 0)
+			(uuid "db2f0508-d770-4240-8439-b832969be5e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
