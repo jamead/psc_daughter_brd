@@ -751,8 +751,8 @@
 		)
 	)
 	(sheet
-		(at 80.01 72.39)
-		(size 26.67 31.75)
+		(at 161.29 102.87)
+		(size 35.56 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -763,11 +763,175 @@
 			(type solid)
 		)
 		(fill
-			(color 157 202 145 0.8700)
+			(color 255 255 194 1.0000)
+		)
+		(uuid "79a78ff4-0a06-4569-970f-a218b7d7f7b9")
+		(property "Sheetname" "Monitor"
+			(at 161.29 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "monitor.kicad_sch"
+			(at 161.29 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "monitor_dac+" input
+			(at 196.85 133.35 0)
+			(uuid "aef432a5-2bd5-4a27-9cb2-d424eda225f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "monitor_dac-" input
+			(at 196.85 130.81 0)
+			(uuid "0c191dbf-545e-4a26-8fb9-7e23d3837554")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "monitor_ignd+" input
+			(at 196.85 127 0)
+			(uuid "325e2185-2616-4e7c-afbc-a1bfc0968f30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "monitor_ignd-" input
+			(at 196.85 124.46 0)
+			(uuid "594c194f-8088-44bd-90db-cc0826c128a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "monitor_spare+" input
+			(at 196.85 120.65 0)
+			(uuid "6194730f-4900-41cf-a9df-131bddf1b843")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "monitor_spare-" input
+			(at 196.85 118.11 0)
+			(uuid "6d816030-b6b1-4542-b322-fb5bb98c5dc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "monitor_vout+" input
+			(at 196.85 114.3 0)
+			(uuid "9402f082-ee57-4c21-a2d1-3265f20205b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "monitor_vout-" input
+			(at 196.85 111.76 0)
+			(uuid "23d408d6-b7c7-4dd7-8246-1ddee19c5504")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 153.67)
+		(size 36.83 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "befff6ff-020c-4bdc-a736-6c19d2d39203")
+		(property "Sheetname" "DCCT"
+			(at 161.29 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcct.kicad_sch"
+			(at 161.29 184.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 62.23)
+		(size 35.56 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
 		)
 		(uuid "dea95122-986e-41c8-b99e-e429cc6f4cd5")
 		(property "Sheetname" "DAC"
-			(at 80.01 71.6784 0)
+			(at 161.29 61.5184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +940,7 @@
 			)
 		)
 		(property "Sheetfile" "dac.kicad_sch"
-			(at 80.01 104.7246 0)
+			(at 161.29 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +949,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 80.01 85.09 180)
+			(at 161.29 74.93 180)
 			(uuid "0a41b9e3-e1ee-47f0-8d63-20174603e710")
 			(effects
 				(font
@@ -795,7 +959,7 @@
 			)
 		)
 		(pin "SDIN" input
-			(at 80.01 87.63 180)
+			(at 161.29 77.47 180)
 			(uuid "08327ac0-b62b-47f6-9a6a-6c8e10f62b5a")
 			(effects
 				(font
@@ -805,7 +969,7 @@
 			)
 		)
 		(pin "SYNCN" input
-			(at 80.01 90.17 180)
+			(at 161.29 80.01 180)
 			(uuid "d71c6f13-47af-4cd4-8d04-8b84ec8bb29f")
 			(effects
 				(font
@@ -815,7 +979,7 @@
 			)
 		)
 		(pin "control_vout+" input
-			(at 106.68 95.25 0)
+			(at 196.85 85.09 0)
 			(uuid "826f09af-56dc-4434-97a7-022cc27bc824")
 			(effects
 				(font
@@ -825,7 +989,7 @@
 			)
 		)
 		(pin "control_vout-" input
-			(at 106.68 97.79 0)
+			(at 196.85 87.63 0)
 			(uuid "fa36c8eb-b4bd-4d6a-8869-68cd846c8e62")
 			(effects
 				(font
@@ -835,7 +999,7 @@
 			)
 		)
 		(pin "dac_mon" input
-			(at 106.68 86.36 0)
+			(at 196.85 76.2 0)
 			(uuid "db2f0508-d770-4240-8439-b832969be5e2")
 			(effects
 				(font

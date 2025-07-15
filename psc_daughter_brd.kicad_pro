@@ -666,12 +666,36 @@
       "Root"
     ],
     [
+      "2e720b9e-01cf-44ae-8208-b706dd019273",
+      "monitor_ignd"
+    ],
+    [
       "dea95122-986e-41c8-b99e-e429cc6f4cd5",
       "DAC"
     ],
     [
       "4999e499-3966-4a05-8928-c40234f9b048",
       "Voltage Reference"
+    ],
+    [
+      "79a78ff4-0a06-4569-970f-a218b7d7f7b9",
+      "Monitor"
+    ],
+    [
+      "befff6ff-020c-4bdc-a736-6c19d2d39203",
+      "DCCT"
+    ],
+    [
+      "1d579e7e-2d93-4fb5-9e36-0cee89c5218c",
+      "monitor_dac"
+    ],
+    [
+      "1451311b-bc3c-4881-9bd0-8f56e4c81ba1",
+      "monitor_spare"
+    ],
+    [
+      "117b8dcd-1c5a-49f5-add0-b95ae4c7f8d2",
+      "monitor_vout"
     ]
   ],
   "text_variables": {}
