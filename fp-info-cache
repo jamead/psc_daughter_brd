@@ -1,4 +1,4 @@
-26215179331069030
+26218728895921260
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104258,26 +104258,26 @@ ADR1001AEZ
 20
 20
 myparts
-E-20-1_ADI-L
-
-ADR1001AEZ 
-0
-20
-20
-myparts
-E-20-1_ADI-M
-
-ADR1001AEZ 
-0
-20
-20
-myparts
 MOLEX_39301022
 
 
 0
 2
 2
+myparts
+PQFP12_RUT_TEX
+
+TXU0104RUTR 
+0
+12
+12
+myparts
+PW14
+
+TXB0104PWR 
+0
+14
+14
 myparts
 QFP50P1200X1200X160-64N
 
@@ -104286,12 +104286,26 @@ QFP50P1200X1200X160-64N
 64
 64
 myparts
+R_8_ADI
+
+ADUM5242ARZ 
+0
+8
+8
+myparts
 SOIC127P600X175-8N
 
 
 0
 8
 8
+myparts
+SOT563_LTF
+
+SP3006-02XTG 
+0
+6
+6
 myparts
 TE_6469028-1
 

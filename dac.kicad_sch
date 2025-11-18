@@ -4338,7 +4338,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 115.57) (xy 82.55 115.57)
+			(xy 62.23 115.57) (xy 82.55 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4526,7 +4526,7 @@
 		)
 		(uuid "e47754d2-81ce-40c4-b9d5-b23185ffa9aa")
 	)
-	(hierarchical_label "SCLK"
+	(hierarchical_label "sclk"
 		(shape input)
 		(at 62.23 113.03 180)
 		(effects
@@ -4548,7 +4548,7 @@
 		)
 		(uuid "43e32907-9ff7-4b07-950d-c1b56aad0f43")
 	)
-	(hierarchical_label "SYNCN"
+	(hierarchical_label "syncn"
 		(shape input)
 		(at 62.23 110.49 180)
 		(effects
@@ -4559,9 +4559,9 @@
 		)
 		(uuid "6d597a32-38fc-46c9-b677-f12701855e72")
 	)
-	(hierarchical_label "SDIN"
+	(hierarchical_label "sdin"
 		(shape input)
-		(at 60.96 115.57 180)
+		(at 62.23 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4570,7 +4570,7 @@
 		)
 		(uuid "8513e57a-82b0-49d5-a178-c7cfeb4e3ff4")
 	)
-	(hierarchical_label "control_vout+"
+	(hierarchical_label "dac_out+"
 		(shape input)
 		(at 363.22 167.64 0)
 		(effects
@@ -4581,7 +4581,7 @@
 		)
 		(uuid "c55cca2e-4dde-4f71-b9b7-815d09251daf")
 	)
-	(hierarchical_label "control_vout-"
+	(hierarchical_label "dac_vout-"
 		(shape input)
 		(at 363.22 177.8 0)
 		(effects

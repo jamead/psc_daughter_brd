@@ -680,11 +680,11 @@
     ],
     [
       "79a78ff4-0a06-4569-970f-a218b7d7f7b9",
-      "Monitor"
+      "Monitor ADCs"
     ],
     [
       "befff6ff-020c-4bdc-a736-6c19d2d39203",
-      "DCCT"
+      "DCCT ADCs"
     ],
     [
       "1d579e7e-2d93-4fb5-9e36-0cee89c5218c",
@@ -697,6 +697,26 @@
     [
       "117b8dcd-1c5a-49f5-add0-b95ae4c7f8d2",
       "monitor_vout"
+    ],
+    [
+      "8b085634-4abd-4835-b1ed-4f55ac13a725",
+      "PS connector"
+    ],
+    [
+      "51fccaf4-2eda-46a3-96f9-c741792eba0f",
+      "Isolated Digital IO"
+    ],
+    [
+      "2218990c-df93-405e-a560-4b3f2a81eb40",
+      "FPGA connector"
+    ],
+    [
+      "84c3e299-56b9-4043-9091-ed3bb176fd4f",
+      "4 bit isolated digital output"
+    ],
+    [
+      "e0aa7f64-0a32-4be9-b0d8-80395ba4c75d",
+      "4 bit isolated digital input"
     ]
   ],
   "text_variables": {}
