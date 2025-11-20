@@ -699,24 +699,32 @@
       "monitor_vout"
     ],
     [
+      "e462b81c-c1ec-4974-a851-a02502e296f2",
+      "DCCT Channel 1"
+    ],
+    [
       "8b085634-4abd-4835-b1ed-4f55ac13a725",
       "PS connector"
     ],
     [
-      "51fccaf4-2eda-46a3-96f9-c741792eba0f",
-      "Isolated Digital IO"
+      "01b24c67-d057-4790-88f6-07e11ed5cbc3",
+      "DCCT Channel 2"
     ],
     [
       "2218990c-df93-405e-a560-4b3f2a81eb40",
       "FPGA connector"
     ],
     [
-      "84c3e299-56b9-4043-9091-ed3bb176fd4f",
-      "4 bit isolated digital output"
+      "979dab62-5512-4152-97ee-117138a961d3",
+      "Isolated Digital IO"
     ],
     [
       "e0aa7f64-0a32-4be9-b0d8-80395ba4c75d",
       "4 bit isolated digital input"
+    ],
+    [
+      "84c3e299-56b9-4043-9091-ed3bb176fd4f",
+      "4 bit isolated digital output"
     ]
   ],
   "text_variables": {}

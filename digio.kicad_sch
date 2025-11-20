@@ -419,7 +419,7 @@
 		)
 		(pin "dout0" input
 			(at 117.856 55.88 180)
-			(uuid "b9c35f18-d79f-4e27-93d1-3642f5e8b3a7")
+			(uuid "87649a35-5f34-477f-b0fd-f72e9558f4d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +429,7 @@
 		)
 		(pin "dout1" input
 			(at 117.856 58.42 180)
-			(uuid "fde7a9e6-db36-4071-b3a3-53dddcf53652")
+			(uuid "c92a5512-65ff-4804-86bc-c86335857fa0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +439,7 @@
 		)
 		(pin "dout2" input
 			(at 117.856 60.96 180)
-			(uuid "162169ab-1ccc-40aa-a496-6b6c9a38423f")
+			(uuid "c7669805-460e-4768-8670-8653570848ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +449,7 @@
 		)
 		(pin "dout3" input
 			(at 117.856 63.5 180)
-			(uuid "a3aa5fa9-47be-4011-8672-25863f6e26b1")
+			(uuid "744c2b7f-4f0b-4192-ae6b-c68a8ec68fc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,7 +459,7 @@
 		)
 		(pin "dout1_iso" input
 			(at 154.94 58.42 0)
-			(uuid "d743b037-741e-46de-baad-8c91e6c0f7ed")
+			(uuid "20011ce1-9fd1-42aa-9cbf-583a614395fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +469,7 @@
 		)
 		(pin "dout2_iso" input
 			(at 154.94 60.96 0)
-			(uuid "b6fb15b7-ad85-45be-97d0-a896674ba760")
+			(uuid "15096e77-b4ec-4ed3-ac2a-5c264f9929db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +479,7 @@
 		)
 		(pin "dout3_iso" input
 			(at 154.94 63.5 0)
-			(uuid "2ae02100-20f5-4037-8b70-c10b7f11ca26")
+			(uuid "39af7a34-77a1-4b45-9a14-32789d8854aa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -489,7 +489,7 @@
 		)
 		(pin "dout0_iso" input
 			(at 154.94 55.88 0)
-			(uuid "8a01e471-15ec-4764-bca3-a4006c68b35b")
+			(uuid "41f6debf-9eed-453e-b27d-ca8fff8a4208")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -499,7 +499,7 @@
 		)
 		(pin "dout_iso_gnd" input
 			(at 154.94 73.66 0)
-			(uuid "766f509b-31a0-4ec8-a229-529bbeff3f94")
+			(uuid "ae695619-2f00-4959-8fbe-6bfc1592f2a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,8 +509,8 @@
 		)
 		(instances
 			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/51fccaf4-2eda-46a3-96f9-c741792eba0f"
-					(page "13")
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/979dab62-5512-4152-97ee-117138a961d3"
+					(page "17")
 				)
 			)
 		)
@@ -551,7 +551,7 @@
 		)
 		(pin "din2" input
 			(at 118.11 118.11 180)
-			(uuid "8698691c-793b-48b3-83e1-ccc5a1c9eef4")
+			(uuid "43f5ec4c-4932-489e-a4c8-7aaf6c99851a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +561,7 @@
 		)
 		(pin "din3" input
 			(at 118.11 120.65 180)
-			(uuid "5b3619e3-208f-4457-8437-c3d00e783b7e")
+			(uuid "4841c78d-423c-4de6-9a2e-81100b5b3e81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,7 +571,7 @@
 		)
 		(pin "din2_iso" input
 			(at 155.194 118.11 0)
-			(uuid "e7367226-2e30-4b5f-a70b-329eb1a03988")
+			(uuid "9c646450-3a7a-4455-bf08-bfc7fcf786cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -581,7 +581,7 @@
 		)
 		(pin "din0_iso" input
 			(at 155.194 113.03 0)
-			(uuid "d840ea4d-323c-4f36-9d90-185dcea80acf")
+			(uuid "404ad315-f5d2-4de9-966f-fe8434e0f399")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -591,7 +591,7 @@
 		)
 		(pin "din1" input
 			(at 118.11 115.57 180)
-			(uuid "319fbe6a-e3a7-4ca2-96bc-199f72f2ec84")
+			(uuid "7ffc97a3-0ffe-4a2f-b6bc-b3325ea80eee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +601,7 @@
 		)
 		(pin "din0" input
 			(at 118.11 113.03 180)
-			(uuid "e2f1456d-c3c0-49d5-b2ef-f489cd0a5b74")
+			(uuid "95238d82-ed54-4a96-8986-dfeaff5126ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +611,7 @@
 		)
 		(pin "din1_iso" input
 			(at 155.194 115.57 0)
-			(uuid "12036e78-1033-403b-97f4-6f4c075b6221")
+			(uuid "828d4195-9d61-4cf5-b45e-449669749836")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,7 +621,7 @@
 		)
 		(pin "din_iso_gnd" input
 			(at 155.194 130.81 0)
-			(uuid "f9767302-6aba-4bda-8675-5ef21e1586a8")
+			(uuid "a8b4c162-165e-4cea-a435-c04129eadc84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,7 +631,7 @@
 		)
 		(pin "din3_iso" input
 			(at 155.194 120.65 0)
-			(uuid "e779aa20-92e6-4d81-a49d-677a10ad7e7e")
+			(uuid "90165190-bdc1-4e31-98c6-b5ed9dab563e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,8 +641,8 @@
 		)
 		(instances
 			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/51fccaf4-2eda-46a3-96f9-c741792eba0f"
-					(page "14")
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/979dab62-5512-4152-97ee-117138a961d3"
+					(page "16")
 				)
 			)
 		)

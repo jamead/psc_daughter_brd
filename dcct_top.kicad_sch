@@ -1,0 +1,464 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2e69b0d9-6dbf-44ad-ac65-18fe9fdd0f96")
+	(paper "B")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 165.1 137.16) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033628e9-4e42-494b-9157-e2c061fdb71f")
+	)
+	(wire
+		(pts
+			(xy 222.25 142.24) (xy 227.33 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2cfa06-a052-4770-89c7-32c3abc07afb")
+	)
+	(wire
+		(pts
+			(xy 163.83 88.9) (xy 184.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e29cd5e-e4bf-4972-a04e-c527d013e48c")
+	)
+	(wire
+		(pts
+			(xy 165.1 140.97) (xy 185.42 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eead01f-6a53-4aa2-b9fe-122c0862a762")
+	)
+	(wire
+		(pts
+			(xy 222.25 144.78) (xy 227.33 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d8f90b-865d-460c-84fc-9b068bb6fee8")
+	)
+	(wire
+		(pts
+			(xy 220.98 93.98) (xy 226.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58fa6c41-3028-4041-b162-7463e80091e5")
+	)
+	(wire
+		(pts
+			(xy 220.98 88.9) (xy 226.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da5b721-68df-4ab3-ac40-8ea06a08877c")
+	)
+	(wire
+		(pts
+			(xy 222.25 137.16) (xy 227.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683288ef-bdf2-480c-877f-1edb952fe6d9")
+	)
+	(wire
+		(pts
+			(xy 220.98 96.52) (xy 226.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7357acdd-5915-4d12-8dd9-a311d0ac9ecd")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44) (xy 226.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c4686d-2d29-48d4-809d-c9006f8e8c88")
+	)
+	(wire
+		(pts
+			(xy 163.83 92.71) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bfa72f-db36-4ed1-a0fe-c8cac7bfdeb5")
+	)
+	(wire
+		(pts
+			(xy 222.25 139.7) (xy 227.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4366e7-e2f7-4253-981e-ff3f5fe33490")
+	)
+	(hierarchical_label "dcct1+"
+		(shape input)
+		(at 165.1 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17c9c7b5-6e72-442a-996d-5cb1666af1ff")
+	)
+	(hierarchical_label "dcct1-"
+		(shape input)
+		(at 165.1 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "386a5d0e-13ee-4961-8ed2-a3916c952e78")
+	)
+	(hierarchical_label "dcct0+"
+		(shape input)
+		(at 163.83 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54b83ae3-2938-4fd3-95de-3a3629c58667")
+	)
+	(hierarchical_label "dcct1_sdo"
+		(shape input)
+		(at 227.33 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7243227b-896c-48c1-a457-e3c72e67a4da")
+	)
+	(hierarchical_label "dcct0_busy"
+		(shape input)
+		(at 226.06 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92553b10-0372-461d-adc1-7519da6f359a")
+	)
+	(hierarchical_label "dcct0_sdo"
+		(shape input)
+		(at 226.06 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e03fb16-6c4a-4ae7-87d1-4ec27c74f4ef")
+	)
+	(hierarchical_label "dcct1_sck"
+		(shape input)
+		(at 227.33 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa6db55d-ac64-4a14-8af8-9b98fc1e2313")
+	)
+	(hierarchical_label "dcct0_cnv"
+		(shape input)
+		(at 226.06 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad0d11c8-d4df-4130-b786-d86720e9a674")
+	)
+	(hierarchical_label "dcct1_cnv"
+		(shape input)
+		(at 227.33 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c39a056c-ab30-455d-a4c0-a30e73671c6f")
+	)
+	(hierarchical_label "dcct0_sck"
+		(shape input)
+		(at 226.06 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccf360b6-481a-40d8-b995-018997bd6c2d")
+	)
+	(hierarchical_label "dcct0-"
+		(shape input)
+		(at 163.83 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdd820fb-93bc-4600-8e99-bfcebb1d0879")
+	)
+	(hierarchical_label "dcct1_busy"
+		(shape input)
+		(at 227.33 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f63fa002-7056-47e9-961c-d5ae0a7c520d")
+	)
+	(sheet
+		(at 185.42 127)
+		(size 36.83 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "01b24c67-d057-4790-88f6-07e11ed5cbc3")
+		(property "Sheetname" "DCCT Channel 2"
+			(at 185.42 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcct.kicad_sch"
+			(at 185.42 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "sdo" input
+			(at 222.25 139.7 0)
+			(uuid "7ea24646-6293-4e63-aee8-dfae7adbe6de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "busy" input
+			(at 222.25 142.24 0)
+			(uuid "3ad59a0d-ad27-4390-8471-89b62a319732")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "cnv" output
+			(at 222.25 137.16 0)
+			(uuid "cd288765-c369-487d-842c-4589c40147f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sck" input
+			(at 222.25 144.78 0)
+			(uuid "65f5a82d-4e90-4384-831f-2084f9d194c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dcct+" input
+			(at 185.42 137.16 180)
+			(uuid "0a117bdb-a6a8-4bcd-b43b-8c46bad31419")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dcct-" input
+			(at 185.42 140.97 180)
+			(uuid "dbe0a77d-a4ad-4f53-824e-bd134bbfb7b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 78.74)
+		(size 36.83 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "e462b81c-c1ec-4974-a851-a02502e296f2")
+		(property "Sheetname" "DCCT Channel 1"
+			(at 184.15 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dcct.kicad_sch"
+			(at 184.15 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "sdo" input
+			(at 220.98 91.44 0)
+			(uuid "67e5104b-82d3-43f2-ab91-ac58d71595ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "busy" input
+			(at 220.98 93.98 0)
+			(uuid "2cb16ee6-eedc-496d-9771-41970b678ed5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "cnv" output
+			(at 220.98 88.9 0)
+			(uuid "7082339b-e2b9-4c40-a7a5-bc6d842ee77e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sck" input
+			(at 220.98 96.52 0)
+			(uuid "f00b4476-e3c2-4ea7-b855-537ba8d39c6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dcct+" input
+			(at 184.15 88.9 180)
+			(uuid "d31bc223-266b-40f9-acf0-c0e93f4341a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "dcct-" input
+			(at 184.15 92.71 180)
+			(uuid "0085f665-8169-4855-b515-356972d7a4c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "psc_daughter_brd"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203"
+					(page "9")
+				)
+			)
+		)
+	)
+)

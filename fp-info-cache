@@ -1,4 +1,4 @@
-26218728895921260
+26224019704784270
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104251,12 +104251,33 @@ CONN_F15-26P135G0-5979_MOL
 26
 26
 myparts
+DFN-16_DE_LIT
+
+LTC2378IDE-20-PBF 
+0
+17
+17
+myparts
 E-20-1_ADI
 
 ADR1001AEZ 
 0
 20
 20
+myparts
+LT6202CS5
+
+LT6202CS5-TRPBF 
+0
+5
+5
+myparts
+LTC6655
+
+
+0
+8
+8
 myparts
 MOLEX_39301022
 
