@@ -2273,131 +2273,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+10V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+10V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+10V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+10V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+10V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:-15V"
 			(power)
 			(pin_numbers
@@ -2672,6 +2547,12 @@
 		(uuid "1dad9b22-e7b7-41ea-a11a-edadf75351b2")
 	)
 	(junction
+		(at 53.34 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "280e525b-ef06-497e-a675-59865929f5dd")
+	)
+	(junction
 		(at 365.76 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2772,12 +2653,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c8493ec-faa1-4cf4-8b17-8cd67800233a")
-	)
-	(junction
-		(at 53.34 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "908b1320-23de-432f-9e78-1e15477f8ac1")
 	)
 	(junction
 		(at 241.3 95.25)
@@ -3682,16 +3557,6 @@
 			(type default)
 		)
 		(uuid "52eaffb1-ef45-4efc-a463-c850bc9b520f")
-	)
-	(wire
-		(pts
-			(xy 53.34 30.48) (xy 53.34 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "534570b2-46bd-479c-8a68-7e57a384da47")
 	)
 	(wire
 		(pts
@@ -4685,6 +4550,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 35.56) (xy 53.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0bef7a-bd1f-43a4-a20c-630d95ca1d17")
+	)
+	(wire
+		(pts
 			(xy 241.3 147.32) (xy 241.3 146.05)
 		)
 		(stroke
@@ -5178,6 +5053,17 @@
 			(justify left)
 		)
 		(uuid "eb08564c-4fcf-4345-99e3-13b5bc701ce2")
+	)
+	(hierarchical_label "vref_in"
+		(shape input)
+		(at 36.83 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe8fed35-8524-4553-b450-01e86b951c7f")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -11692,76 +11578,6 @@
 				)
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
 					(reference "#PWR0256")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+10V")
-		(at 53.34 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e08c516f-621d-4a7a-937d-ca72fe3e816e")
-		(property "Reference" "#PWR0215"
-			(at 53.34 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+10V"
-			(at 53.34 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 53.34 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b417482-76c5-42ae-bd29-c29ad4257ddf")
-		)
-		(instances
-			(project "psc_daughter_brd"
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/01b24c67-d057-4790-88f6-07e11ed5cbc3"
-					(reference "#PWR0168")
-					(unit 1)
-				)
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/befff6ff-020c-4bdc-a736-6c19d2d39203/e462b81c-c1ec-4974-a851-a02502e296f2"
-					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
