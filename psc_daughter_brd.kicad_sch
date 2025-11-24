@@ -221,13 +221,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 74.93) (xy 162.56 74.93)
+			(xy 128.27 55.88) (xy 162.56 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0649acb7-8751-42ae-87ee-f33b95ef8ec8")
+		(uuid "0d54759a-ae40-4993-8790-2752c0da2267")
 	)
 	(wire
 		(pts
@@ -261,13 +261,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 62.23) (xy 162.56 62.23)
+			(xy 128.27 76.2) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30141906-e415-474e-b05a-a99119e3d97b")
+		(uuid "314a1e65-8d21-4968-ba76-db551c9e22ab")
 	)
 	(wire
 		(pts
@@ -331,6 +331,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 81.28) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451d29c2-bfaf-463b-adca-86d80ed48450")
+	)
+	(wire
+		(pts
 			(xy 196.85 153.67) (xy 234.95 153.67)
 		)
 		(stroke
@@ -348,6 +358,16 @@
 			(type default)
 		)
 		(uuid "5cd414c9-0cbd-4c01-9c34-4a604d2d7d76")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 162.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bd8f0e-eb08-48a0-82fe-8e2ca994a16a")
 	)
 	(wire
 		(pts
@@ -371,16 +391,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 57.15) (xy 162.56 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7769ac36-4773-4132-b05b-4df46ffc1875")
-	)
-	(wire
-		(pts
 			(xy 196.85 54.61) (xy 234.95 54.61)
 		)
 		(stroke
@@ -391,13 +401,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 54.61) (xy 162.56 54.61)
+			(xy 128.27 60.96) (xy 162.56 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7df0c1f4-42b2-4cf8-9ee7-f2037c1ea4d3")
+		(uuid "7c9a694d-d4b7-4975-a3e9-066af2dca55d")
 	)
 	(wire
 		(pts
@@ -428,16 +438,6 @@
 			(type default)
 		)
 		(uuid "85b5dff1-fbeb-46a3-b949-21c2f5635cc4")
-	)
-	(wire
-		(pts
-			(xy 128.27 72.39) (xy 162.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d28d123-31df-4619-8315-7102b789a3aa")
 	)
 	(wire
 		(pts
@@ -501,16 +501,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 59.69) (xy 162.56 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9756f62-eda6-4023-829d-3a67204d9d46")
-	)
-	(wire
-		(pts
 			(xy 196.85 72.39) (xy 234.95 72.39)
 		)
 		(stroke
@@ -528,6 +518,16 @@
 			(type default)
 		)
 		(uuid "c3c5d8aa-9e77-497f-a803-fa0b2decac83")
+	)
+	(wire
+		(pts
+			(xy 128.27 78.74) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6155485-200d-41e7-bba7-81e021c97cdd")
 	)
 	(wire
 		(pts
@@ -571,16 +571,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 80.01) (xy 162.56 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae7d2b2-5b45-4077-90db-ec3d62e45d83")
-	)
-	(wire
-		(pts
 			(xy 196.85 158.75) (xy 234.95 158.75)
 		)
 		(stroke
@@ -598,6 +588,16 @@
 			(type default)
 		)
 		(uuid "e11cc29b-d799-4cd1-829f-6299e6badc26")
+	)
+	(wire
+		(pts
+			(xy 128.27 58.42) (xy 162.56 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea6df335-41f0-487b-beb3-cd1d01fb4d29")
 	)
 	(wire
 		(pts
@@ -651,23 +651,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 77.47) (xy 162.56 77.47)
+			(xy 128.27 63.5) (xy 162.56 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f942d934-cdd8-446a-8fb1-0835dfd49776")
-	)
-	(wire
-		(pts
-			(xy 161.925 64.77) (xy 162.56 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff06ef65-e183-49c8-af26-50c17bd5150e")
+		(uuid "fea7dd8d-79db-487b-9f8f-380c4fcbedb5")
 	)
 	(wire
 		(pts
@@ -1684,7 +1674,7 @@
 			)
 		)
 		(pin "digin_flt1" input
-			(at 128.27 74.93 0)
+			(at 128.27 76.2 0)
 			(uuid "99f33355-941d-4a00-b426-caa6c40dcb26")
 			(effects
 				(font
@@ -1714,7 +1704,7 @@
 			)
 		)
 		(pin "digout_on2" input
-			(at 128.27 57.15 0)
+			(at 128.27 58.42 0)
 			(uuid "3377a6fd-703b-454e-9c8b-0b882168bbf8")
 			(effects
 				(font
@@ -1724,7 +1714,7 @@
 			)
 		)
 		(pin "digin_spare" input
-			(at 128.27 80.01 0)
+			(at 128.27 81.28 0)
 			(uuid "7c61f5d7-068e-4a1b-80e2-61e8a5dc95fd")
 			(effects
 				(font
@@ -1744,7 +1734,7 @@
 			)
 		)
 		(pin "digin_flt2" input
-			(at 128.27 77.47 0)
+			(at 128.27 78.74 0)
 			(uuid "8f570903-6e05-4285-b1a0-6452f6e47566")
 			(effects
 				(font
@@ -1764,7 +1754,7 @@
 			)
 		)
 		(pin "digout_spare" input
-			(at 128.27 62.23 0)
+			(at 128.27 63.5 0)
 			(uuid "fe0ed1b3-8593-44e4-9402-35bcb835a868")
 			(effects
 				(font
@@ -1804,7 +1794,7 @@
 			)
 		)
 		(pin "digin_acon" input
-			(at 128.27 72.39 0)
+			(at 128.27 73.66 0)
 			(uuid "0f84e355-98b9-45cc-9df7-f0d5e4aab486")
 			(effects
 				(font
@@ -1814,7 +1804,7 @@
 			)
 		)
 		(pin "digout_reset" input
-			(at 128.27 59.69 0)
+			(at 128.27 60.96 0)
 			(uuid "ace2d6bd-1077-4179-b044-c70e82b650e6")
 			(effects
 				(font
@@ -1824,7 +1814,7 @@
 			)
 		)
 		(pin "digout_on1" input
-			(at 128.27 54.61 0)
+			(at 128.27 55.88 0)
 			(uuid "54bcb220-c7df-4e91-8d30-1e4e37069800")
 			(effects
 				(font
@@ -1843,9 +1833,9 @@
 				(justify right)
 			)
 		)
-		(pin "dcct0+" output
-			(at 128.27 193.04 0)
-			(uuid "a220f1ad-a2e2-4121-88c0-8619df4084d5")
+		(pin "din_iso_gnd" input
+			(at 128.27 83.82 0)
+			(uuid "6954c0a1-b955-4e25-9118-f3be626e903d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,19 +1843,9 @@
 				(justify right)
 			)
 		)
-		(pin "dcct0-" output
-			(at 128.27 195.58 0)
-			(uuid "d9bbae94-fe8b-4b7c-ad32-52f042f27d4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "dcct1+" output
+		(pin "dcct1+" input
 			(at 128.27 205.74 0)
-			(uuid "fec66faa-1d23-4a41-a8df-664bf9b408bd")
+			(uuid "18799cb7-4e35-4247-885d-7b424ebe91ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,9 +1853,39 @@
 				(justify right)
 			)
 		)
-		(pin "dcct1-" output
+		(pin "dout_iso_gnd" input
+			(at 128.27 66.04 0)
+			(uuid "c973861f-0324-49fc-9b28-5542283cf1fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dcct1-" input
 			(at 128.27 208.28 0)
-			(uuid "7bb80ed6-439d-469a-921d-da878c2ad679")
+			(uuid "1b517249-a266-41db-9dbb-278bb7d32b43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dcct0+" input
+			(at 128.27 193.04 0)
+			(uuid "b9ae108f-8ef6-4936-ae1d-249515493a7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "dcct0-" input
+			(at 128.27 195.58 0)
+			(uuid "27f4dda5-0316-460b-9045-3ba1a8e3350f")
 			(effects
 				(font
 					(size 1.27 1.27)
