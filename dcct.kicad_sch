@@ -2105,6 +2105,16 @@
 		)
 		(uuid "aa001df8-f71c-4869-8f0c-0315c0f54115")
 	)
+	(text "Replace with ADA4945-1"
+		(exclude_from_sim no)
+		(at 255.524 127.762 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb5030e1-1f85-4b23-b42c-ddf192344238")
+	)
 	(junction
 		(at 189.23 138.43)
 		(diameter 0)
