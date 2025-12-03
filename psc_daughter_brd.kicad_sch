@@ -5,7 +5,7 @@
 	(uuid "40891cc8-bf64-41f4-8f69-a607d7b280eb")
 	(paper "B")
 	(title_block
-		(title "Power Supply Controller")
+		(title "Power Supply Controller Daughterboard")
 		(date "2025-11-21")
 		(company "BNL")
 	)
