@@ -1,4 +1,4 @@
-26224019704784270
+26232929300169875
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104251,6 +104251,13 @@ CONN_F15-26P135G0-5979_MOL
 26
 26
 myparts
+DFLS130-7_DIO
+
+DFLS130LQ-7 
+0
+2
+2
+myparts
 DFN-16_DE_LIT
 
 LTC2378IDE-20-PBF 
@@ -104264,6 +104271,13 @@ ADR1001AEZ
 0
 20
 20
+myparts
+EMCT101W222M1GV001E
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+4
+4
 myparts
 LT6202CS5
 
@@ -104304,8 +104318,8 @@ QFP50P1200X1200X160-64N
 
 
 0
-64
-64
+65
+65
 myparts
 R_8_ADI
 
@@ -104334,3 +104348,24 @@ TE_6469028-1
 0
 60
 60
+myparts
+TestPoint_RCS-0C
+Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
+0
+1
+1
+myparts
+bnl_logo
+
+
+0
+0
+0
+myparts
+sp3118-01etg
+
+
+0
+2
+2

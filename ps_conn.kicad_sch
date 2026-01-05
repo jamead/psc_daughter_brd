@@ -389,13 +389,31 @@
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "Amphenol"
+			(property "MFG" "Amphenol"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MFG_PN" "61082-061400LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost" "2.53"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -2214,6 +2232,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:-15V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-15V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-15V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-15V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-15V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3570,7 +3689,7 @@
 		)
 		(uuid "0e63b529-082b-44e7-a1c2-6eb2eba0cf2f")
 	)
-	(hierarchical_label "digin_spare"
+	(hierarchical_label "digin_acon"
 		(shape input)
 		(at 162.56 71.12 0)
 		(effects
@@ -3581,7 +3700,7 @@
 		)
 		(uuid "16fa9d43-f6d5-436d-884e-ccebb58a59e1")
 	)
-	(hierarchical_label "digout_reset"
+	(hierarchical_label "digout_on2"
 		(shape input)
 		(at 162.56 58.42 0)
 		(effects
@@ -3636,7 +3755,7 @@
 		)
 		(uuid "36fb9dd2-6f95-4100-bd1a-389e140d0cbf")
 	)
-	(hierarchical_label "digin_flt2"
+	(hierarchical_label "digin_flt1"
 		(shape input)
 		(at 162.56 68.58 0)
 		(effects
@@ -3658,7 +3777,7 @@
 		)
 		(uuid "6b1bee1d-0e81-4369-b948-acec34821930")
 	)
-	(hierarchical_label "dout_iso_gnd"
+	(hierarchical_label "din_iso_gnd"
 		(shape input)
 		(at 113.03 53.34 180)
 		(effects
@@ -3680,7 +3799,7 @@
 		)
 		(uuid "9640a392-de4d-4388-a1f9-6f9142bc4ed4")
 	)
-	(hierarchical_label "digout_on2"
+	(hierarchical_label "digout_reset"
 		(shape input)
 		(at 162.56 55.88 0)
 		(effects
@@ -3702,7 +3821,7 @@
 		)
 		(uuid "a0178e5a-c10a-4f12-ad9d-b1b0af41db24")
 	)
-	(hierarchical_label "din_iso_gnd"
+	(hierarchical_label "dout_iso_gnd"
 		(shape input)
 		(at 113.03 63.5 180)
 		(effects
@@ -3724,7 +3843,7 @@
 		)
 		(uuid "a89d9080-bc81-4530-a03f-409e94f3cf0e")
 	)
-	(hierarchical_label "digout_on1"
+	(hierarchical_label "digout_spare"
 		(shape input)
 		(at 162.56 53.34 0)
 		(effects
@@ -3735,7 +3854,7 @@
 		)
 		(uuid "aab2baca-214c-4175-a73e-94eb6129ae52")
 	)
-	(hierarchical_label "digout_spare"
+	(hierarchical_label "digout_on1"
 		(shape input)
 		(at 162.56 60.96 0)
 		(effects
@@ -3746,7 +3865,7 @@
 		)
 		(uuid "b5a2f0b6-e221-4f8a-b5b7-ff2bfc140754")
 	)
-	(hierarchical_label "digin_acon"
+	(hierarchical_label "digin_spare"
 		(shape input)
 		(at 162.56 63.5 0)
 		(effects
@@ -3779,7 +3898,7 @@
 		)
 		(uuid "cbc71bf6-52a7-45e9-9c63-b28e2f43e533")
 	)
-	(hierarchical_label "digin_flt1"
+	(hierarchical_label "digin_flt2"
 		(shape input)
 		(at 162.56 66.04 0)
 		(effects
@@ -3834,7 +3953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN RCPT 60POS SMD GOLD"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -3880,6 +3999,34 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Amphenol"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "61082-061400LF"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.53"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4139,6 +4286,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-15V")
+		(at 99.06 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6091de0a-0901-4ee6-955c-276f86374fe5")
+		(property "Reference" "#PWR0155"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 99.06 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d92d8a6f-a1da-4546-9fde-ee246cbea6df")
+		)
+		(instances
+			(project ""
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/8b085634-4abd-4835-b1ed-4f55ac13a725"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 134.62 0)
 		(unit 1)
@@ -4265,72 +4478,6 @@
 			(project ""
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/8b085634-4abd-4835-b1ed-4f55ac13a725"
 					(reference "#PWR0159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PSC:+15V")
-		(at 99.06 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c7f0d33-14fc-4527-ba9c-fa56c0726392")
-		(property "Reference" "#PWR0155"
-			(at 99.06 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+15V"
-			(at 99.06 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 99.06 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83684fc4-888b-4046-9d8f-5857692a97f4")
-		)
-		(instances
-			(project ""
-				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/8b085634-4abd-4835-b1ed-4f55ac13a725"
-					(reference "#PWR0155")
 					(unit 1)
 				)
 			)

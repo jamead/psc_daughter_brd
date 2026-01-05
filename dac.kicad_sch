@@ -1795,6 +1795,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PSC:DFLS130-7"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DFLS130-7"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "myparts:DFLS130-7_DIO"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Zener diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFG_PN" "DFLS130-7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost" "0.25"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DFLS130-7_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.762 1.016) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DFLS130-7_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PSC:opa277"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2180,6 +2357,12 @@
 		(uuid "07e7f820-76f2-4274-baf5-e71ece55f913")
 	)
 	(junction
+		(at 66.04 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "098bc887-d523-4c1a-b1ab-242bc058a051")
+	)
+	(junction
 		(at 270.51 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2304,6 +2487,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8621e968-83ce-43f0-9ea5-9f5782057978")
+	)
+	(junction
+		(at 102.87 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "887ba246-abbd-4542-a736-b9606a3cc029")
 	)
 	(junction
 		(at 80.01 72.39)
@@ -2677,7 +2866,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 54.61) (xy 97.79 54.61)
+			(xy 85.09 36.83) (xy 97.79 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2737,7 +2926,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 62.23) (xy 95.25 62.23)
+			(xy 64.77 44.45) (xy 95.25 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2777,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 62.23) (xy 95.25 93.98)
+			(xy 95.25 44.45) (xy 95.25 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2817,7 +3006,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 78.74) (xy 102.87 72.39)
+			(xy 102.87 78.74) (xy 102.87 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2937,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 59.69) (xy 102.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4374fe22-c24a-41fd-a8b0-ce378952ae7d")
+	)
+	(wire
+		(pts
 			(xy 335.28 167.64) (xy 335.28 139.7)
 		)
 		(stroke
@@ -2994,6 +3193,16 @@
 			(type default)
 		)
 		(uuid "4af90e62-3efd-4c87-9b59-a90e0ce4736d")
+	)
+	(wire
+		(pts
+			(xy 66.04 59.69) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4c4d82-b6ac-472e-8ebe-794f505892f8")
 	)
 	(wire
 		(pts
@@ -3257,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 86.36) (xy 66.04 88.9)
+			(xy 66.04 55.88) (xy 66.04 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3837,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 59.69) (xy 102.87 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4499282-f0b9-4c50-b5dd-194be3d86968")
+	)
+	(wire
+		(pts
 			(xy 134.62 138.43) (xy 138.43 138.43)
 		)
 		(stroke
@@ -3867,7 +4086,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 52.07) (xy 69.85 52.07)
+			(xy 40.64 34.29) (xy 69.85 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4037,7 +4256,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 57.15) (xy 64.77 62.23)
+			(xy 64.77 39.37) (xy 64.77 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4277,6 +4496,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 59.69) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effd7396-509e-43b6-b1f8-4b38a17fbb89")
+	)
+	(wire
+		(pts
 			(xy 351.79 167.64) (xy 363.22 167.64)
 		)
 		(stroke
@@ -4317,7 +4546,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 54.61) (xy 97.79 93.98)
+			(xy 97.79 36.83) (xy 97.79 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4357,7 +4586,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 64.77 57.15)
+			(xy 69.85 39.37) (xy 64.77 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4386,7 +4615,7 @@
 		(uuid "fa05e906-add5-425a-b64f-cf6c959cbac0")
 	)
 	(label "10V_VREF"
-		(at 47.5762 51.6792 0)
+		(at 47.5762 33.8992 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4506,7 +4735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 316.23 119.38 0)
 			(effects
 				(font
@@ -4521,6 +4750,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 316.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 316.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4583,7 +4830,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 ppm, 20-Bit, ±1 LSB INL, Voltage Output DAC, TSSOP-20"
+		(property "Description" "IC DAC 20BIT V-OUT 20TSSOP"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "129.29"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "AD5791BRUZ"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
 			(at 95.25 111.76 0)
 			(effects
 				(font
@@ -4794,7 +5068,7 @@
 	)
 	(symbol
 		(lib_id "PSC:+15V")
-		(at 102.87 72.39 0)
+		(at 102.87 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4803,7 +5077,7 @@
 		(fields_autoplaced yes)
 		(uuid "04fdfbeb-a27f-44e5-84f9-28363d8b3fc8")
 		(property "Reference" "#PWR031"
-			(at 102.87 76.2 0)
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5086,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 102.87 67.31 0)
+			(at 102.87 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +5094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 72.39 0)
+			(at 102.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 72.39 0)
+			(at 102.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5112,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 102.87 72.39 0)
+			(at 102.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,7 +5177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 257.81 223.52 0)
 			(effects
 				(font
@@ -4914,6 +5188,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 262.128 227.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 257.81 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 257.81 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +5473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 304.8 119.38 0)
 			(effects
 				(font
@@ -5192,6 +5484,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 309.118 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 304.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 304.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 314.96 186.69 0)
 			(effects
 				(font
@@ -5674,6 +5984,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 314.96 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 314.96 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5736,7 +6064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 309.88 224.79 0)
 			(effects
 				(font
@@ -5751,6 +6079,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 309.88 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 309.88 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5835,7 +6181,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:AD8676xR")
-		(at 77.47 54.61 0)
+		(at 77.47 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5844,15 +6190,15 @@
 		(fields_autoplaced yes)
 		(uuid "2724de67-cb9f-430d-b8a0-217b1638b0d6")
 		(property "Reference" "U3"
-			(at 77.47 44.45 0)
+			(at 77.47 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AD8676xR"
-			(at 77.47 46.99 0)
+		(property "Value" "AD8676ARZ"
+			(at 77.47 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +6206,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 80.01 54.61 0)
+			(at 80.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5869,7 +6215,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf"
-			(at 83.82 50.8 0)
+			(at 83.82 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,8 +6223,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier, Ultra-precision, 36V, Rail-to-rail output, SOIC-8"
-			(at 77.47 54.61 0)
+		(property "Description" "IC OPAMP GP 2 CIRCUIT 8SOIC"
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "3.93"
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "AD8676ARZ-REEL7"
+			(at 77.47 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6443,7 @@
 				)
 			)
 		)
-		(property "Value" "AD8676xR"
+		(property "Value" "AD8676ARZ"
 			(at 77.47 152.4 0)
 			(effects
 				(font
@@ -6096,7 +6469,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier, Ultra-precision, 36V, Rail-to-rail output, SOIC-8"
+		(property "Description" "IC OPAMP GP 2 CIRCUIT 8SOIC"
+			(at 77.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "3.93"
+			(at 77.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 77.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "AD8676ARZ-REEL7"
 			(at 77.47 160.02 0)
 			(effects
 				(font
@@ -6317,7 +6717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 275.59 119.38 0)
 			(effects
 				(font
@@ -6332,6 +6732,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 275.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 275.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6461,7 +6879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 264.16 119.38 0)
 			(effects
 				(font
@@ -6472,6 +6890,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 268.478 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 264.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 264.16 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,7 +6975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10PF 50V X7R 0402"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -6554,6 +6990,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Kemet"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "C0402C100K5RACTU"
+			(at 119.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6744,7 +7198,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC OPAMP GP 1 CIRCUIT 8SOIC"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.66"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "OPA277UA/2K5"
 			(at 256.54 133.35 0)
 			(effects
 				(font
@@ -6772,6 +7253,101 @@
 			(project ""
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PSC:DFLS130-7")
+		(at 80.01 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "525fada4-c9b7-4087-8347-292b9746c062")
+		(property "Reference" "D1"
+			(at 80.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DFLS130-7"
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "myparts:DFLS130-7_DIO"
+			(at 80.01 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DIODE SCHOTTK 30V 1A POWERDI 123"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Diodes Inc."
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "DFLS130-7"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "0.23"
+			(at 80.01 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9f68ed5-7572-4f09-9ac2-36cf744a1aec")
+		)
+		(pin "2"
+			(uuid "f3d52762-4cf2-460d-a64b-8cead874c3c9")
+		)
+		(instances
+			(project ""
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/dea95122-986e-41c8-b99e-e429cc6f4cd5"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6887,7 +7463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 5.11K OHM 1% 1/10W 0402"
 			(at 193.04 115.57 0)
 			(effects
 				(font
@@ -6902,6 +7478,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Cost" ".01"
+			(at 193.04 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 193.04 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF5111X"
+			(at 193.04 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6921,7 +7524,7 @@
 	)
 	(symbol
 		(lib_id "PSC:+3V3")
-		(at 66.04 86.36 0)
+		(at 66.04 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6930,7 +7533,7 @@
 		(fields_autoplaced yes)
 		(uuid "54581fb7-5dad-4f94-8832-f231961258d3")
 		(property "Reference" "#PWR029"
-			(at 66.04 90.17 0)
+			(at 66.04 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +7542,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 66.04 81.28 0)
+			(at 66.04 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 86.36 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 86.36 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6965,7 +7568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-3V3\""
-			(at 66.04 86.36 0)
+			(at 66.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +7633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 106.68 143.51 0)
 			(effects
 				(font
@@ -7041,6 +7644,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 110.998 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 106.68 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 106.68 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 151.13 83.82 0)
 			(effects
 				(font
@@ -7123,6 +7744,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 151.13 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7317,7 +7956,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC OPAMP GP 1 CIRCUIT 8SOIC"
+			(at 255.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.66"
+			(at 255.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 255.27 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "OPA277UA/2K5"
 			(at 255.27 200.66 0)
 			(effects
 				(font
@@ -7369,7 +8035,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AD8676xR"
+		(property "Value" "AD8676ARZ"
 			(at 46.99 238.7599 0)
 			(effects
 				(font
@@ -7396,7 +8062,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual operational amplifier, Ultra-precision, 36V, Rail-to-rail output, SOIC-8"
+		(property "Description" "IC OPAMP GP 2 CIRCUIT 8SOIC"
+			(at 45.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "3.93"
+			(at 45.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 45.72 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "AD8676ARZ-REEL7"
 			(at 45.72 237.49 0)
 			(effects
 				(font
@@ -7483,7 +8176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -7494,6 +8187,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 144.018 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 139.7 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7561,7 +8272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 107.95 83.82 0)
 			(effects
 				(font
@@ -7572,6 +8283,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 112.268 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 107.95 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 107.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +8636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 262.89 186.69 0)
 			(effects
 				(font
@@ -7918,6 +8647,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 267.208 190.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 262.89 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 262.89 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +8732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 299.72 157.48 0)
 			(effects
 				(font
@@ -7996,6 +8743,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 304.038 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 299.72 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 299.72 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8063,7 +8828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10PF 50V X7R 0402"
 			(at 219.71 123.19 0)
 			(effects
 				(font
@@ -8078,6 +8843,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Kemet"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "C0402C100K5RACTU"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8140,7 +8923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 80.01 77.47 0)
 			(effects
 				(font
@@ -8155,6 +8938,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 80.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 80.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8482,7 +9283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 5.11K OHM 1% 1/10W 0402"
 			(at 210.82 115.57 0)
 			(effects
 				(font
@@ -8497,6 +9298,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Cost" ".01"
+			(at 210.82 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 210.82 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF5111X"
+			(at 210.82 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8559,7 +9387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 303.53 186.69 0)
 			(effects
 				(font
@@ -8570,6 +9398,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 307.848 190.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 303.53 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 303.53 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8704,7 +9550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 298.45 224.79 0)
 			(effects
 				(font
@@ -8715,6 +9561,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 302.768 228.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 298.45 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 298.45 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +9646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10PF 50V X7R 0402"
 			(at 200.66 123.19 0)
 			(effects
 				(font
@@ -8797,6 +9661,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Kemet"
+			(at 200.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "C0402C100K5RACTU"
+			(at 200.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8859,7 +9741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 269.24 223.52 0)
 			(effects
 				(font
@@ -8874,6 +9756,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 269.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 269.24 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8936,7 +9836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 74.93 93.98 0)
 			(effects
 				(font
@@ -8951,6 +9851,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9185,7 +10103,7 @@
 				)
 			)
 		)
-		(property "Value" "AD797"
+		(property "Value" "AD797ARZ"
 			(at 144.272 120.904 0)
 			(effects
 				(font
@@ -9211,7 +10129,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ultralow Distortion, Ultralow Noise Op Amp, DIP-8/SOIC-8"
+		(property "Description" "IC OPAMP GP 1 CIRCUIT 8SOIC"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost" "13.75"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 137.16 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "AD797ARZ"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -9270,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Value" "BUF634AxD"
+		(property "Value" "BUF634AIDR"
 			(at 307.848 202.438 0)
 			(effects
 				(font
@@ -9298,13 +10243,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "36-V, 210-MHz, 250-mA Output, High-Speed Buffer, SOIC-8"
+		(property "Description" "IC OPAMP GP 1 CIRCUIT 8SOIC"
 			(at 302.26 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.99"
+			(at 300.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 300.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "BUF634AIDR"
+			(at 300.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9386,7 +10358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 274.32 186.69 0)
 			(effects
 				(font
@@ -9401,6 +10373,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 274.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 274.32 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9528,7 +10518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 100 OHM 1% 1/3W 0603"
 			(at 347.98 177.8 0)
 			(effects
 				(font
@@ -9543,6 +10533,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Cost" ".01"
+			(at 347.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF15R0X"
+			(at 347.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 347.98 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9605,7 +10622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 138.43 143.51 0)
 			(effects
 				(font
@@ -9616,6 +10633,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 142.748 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 138.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9815,7 +10850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 66.04 93.98 0)
 			(effects
 				(font
@@ -9826,6 +10861,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 70.358 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 66.04 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,7 +10918,7 @@
 				)
 			)
 		)
-		(property "Value" "BUF634AxD"
+		(property "Value" "BUF634AIDR"
 			(at 309.118 135.128 0)
 			(effects
 				(font
@@ -9893,13 +10946,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "36-V, 210-MHz, 250-mA Output, High-Speed Buffer, SOIC-8"
+		(property "Description" "IC OPAMP GP 1 CIRCUIT 8SOIC"
 			(at 303.53 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Cost" "2.99"
+			(at 302.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Analog Devices"
+			(at 302.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "BUF634AIDR"
+			(at 302.26 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10246,7 +11326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 270.51 156.21 0)
 			(effects
 				(font
@@ -10261,6 +11341,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 270.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 270.51 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10389,7 +11487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 118.11 143.51 0)
 			(effects
 				(font
@@ -10404,6 +11502,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 118.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10466,7 +11582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 259.08 156.21 0)
 			(effects
 				(font
@@ -10477,6 +11593,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 263.398 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 259.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 259.08 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +11678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 34.29 231.14 0)
 			(effects
 				(font
@@ -10559,6 +11693,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 34.29 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 34.29 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10686,7 +11838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "RES SMD 100 OHM 1% 1/3W 0603"
 			(at 347.98 167.64 0)
 			(effects
 				(font
@@ -10701,6 +11853,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Cost" ".01"
+			(at 347.98 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "ERJ-2RKF15R0X"
+			(at 347.98 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Panasonic"
+			(at 347.98 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10829,7 +12008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 22.86 231.14 0)
 			(effects
 				(font
@@ -10840,6 +12019,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 27.178 234.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 22.86 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 22.86 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,7 +12171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 149.86 143.51 0)
 			(effects
 				(font
@@ -10989,6 +12186,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 149.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 149.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11251,7 +12466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 33.02 251.46 0)
 			(effects
 				(font
@@ -11266,6 +12481,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 33.02 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 33.02 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11328,7 +12561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 311.15 157.48 0)
 			(effects
 				(font
@@ -11343,6 +12576,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 311.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 311.15 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11604,7 +12855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 25V X5R 0402"
 			(at 119.38 83.82 0)
 			(effects
 				(font
@@ -11619,6 +12870,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MFG" "Taiyo Yuden"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "TMK105BJ104KV-F\n"
+			(at 119.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11681,7 +12950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 10UF 25V X5R 0603"
 			(at 21.59 251.46 0)
 			(effects
 				(font
@@ -11692,6 +12961,24 @@
 		)
 		(property "Voltage" "25V"
 			(at 25.908 255.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung"
+			(at 21.59 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10A106MA8NRNC\n"
+			(at 21.59 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +13002,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 43.18)
+		(at 20.32 25.4)
 		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11731,7 +13018,7 @@
 		)
 		(uuid "4999e499-3966-4a05-8928-c40234f9b048")
 		(property "Sheetname" "Voltage Reference"
-			(at 20.32 42.4684 0)
+			(at 20.32 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11740,7 +13027,7 @@
 			)
 		)
 		(property "Sheetfile" "volt_ref.kicad_sch"
-			(at 20.32 61.5446 0)
+			(at 20.32 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +13036,7 @@
 			)
 		)
 		(pin "PWR_GOOD" input
-			(at 40.64 46.99 0)
+			(at 40.64 29.21 0)
 			(uuid "4ce864ea-7e63-41c7-8713-e687458975ed")
 			(effects
 				(font
@@ -11759,7 +13046,7 @@
 			)
 		)
 		(pin "REF_OUT" input
-			(at 40.64 52.07 0)
+			(at 40.64 34.29 0)
 			(uuid "29ec7bb7-2915-49c9-b2b1-ac1725bbea4c")
 			(effects
 				(font
